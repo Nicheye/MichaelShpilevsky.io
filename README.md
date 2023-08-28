@@ -1,2 +1,2 @@
 # MichaelShpilevsky.io
-Landing page about me
+landing page about me

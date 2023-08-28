@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Montserrat', sans-serif; 
+    overflow-x: hidden;
+}
+.container{
+    padding: 0 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.wrapper{
+    display: flex;
+    margin-top: 100px;
+    gap: 20px;
+}
+.left img{
+    max-width: 500px;
+}
+.title{
+    margin-bottom: 20px;
+}
+.specific{
+    margin-bottom: 7px;
+}
+span{
+    font-weight: 700;
+}
+@media (max-width:768px) {
+    .wrapper{
+        flex-direction: column;
+    }
+    .left img{
+        max-width: 320px;
+    }
+    
+}
+.ty_title{
+    text-align: center;
+    margin-top: 50%;
+    color: #EB6C45;
+}
